@@ -1,0 +1,95 @@
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+            background-color:rgb(108, 108, 171);
+            color: rgb(237, 237, 255);
+            font-family:Arial, Helvetica, sans-serif
+        }
+        form{
+            background-color: rgb(63, 63, 142);
+            padding: 2rem;
+            width: 50%;
+            margin: 1rem auto 3rem auto;
+            max-width: 520px;
+        }
+        form>input{
+            display: block;
+            background-color: aqua;
+            color: rgb(21, 0, 125);
+            border: none;
+            padding: 8px;
+            margin: .5rem auto;
+            width: 50%;
+        }
+        h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .checkboxes{
+            width: 50%;
+            margin: 0 auto;
+            padding: 10px 10px 10px 0;
+            background-color:aqua ;
+            color: rgb(21, 0, 125);
+
+        }
+        .checkboxes>label{
+            display: block;
+            background-color: ;
+            
+        }
+        p{
+            width: 50%;
+            margin: 2rem auto 1rem auto;
+        }
+        .terms{
+            margin-top: 2rem;
+            font-size: .8rem;
+            display: flex;
+            gap: .5rem;
+            
+        }
+        .terms>label{
+            display: block;
+        }
+        #terms{
+            font-size: .5rem;
+            display: block;
+            
+        }
+        #submit{
+            background-color: red;
+            color: white;
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+        #submit:hover{
+            transform: scale(110%);
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="form">
+        <input id="owner-name" type="text" placeholder="your name">
+        <input id="pet-name" type="text" placeholder="your pet's name">
+        <input id="species" type="text" placeholder="what's your pet? a dog? a cat?">
+        <input id="breed" type="text" placeholder="your pet's breed">
+        
+        <button type="submit" id="submit">INVIA </button>
+
+
+    </form>
+    
+</body>
+</html>
